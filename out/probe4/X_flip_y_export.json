@@ -1,0 +1,17 @@
+{
+ "arguments": {
+  "path": "/lab/out/X-flip_y.stl",
+  "format": "stl"
+ },
+ "content": [
+  {
+   "text": "{\n  \"bytes\": 684,\n  \"format\": \"StlBinary\",\n  \"path\": \"/lab/out/X-flip_y.stl\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "bytes": 684,
+    "format": "StlBinary",
+    "path": "/lab/out/X-flip_y.stl"
+   }
+  }
+ ]
+}

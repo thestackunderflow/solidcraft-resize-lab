@@ -1,0 +1,13 @@
+{
+ "content": [
+  {
+   "text": "{\n  \"bytes\": 75484,\n  \"format\": \"StlBinary\",\n  \"path\": \"/lab/out/hard-80.stl\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "bytes": 75484,
+    "format": "StlBinary",
+    "path": "/lab/out/hard-80.stl"
+   }
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "arguments": {
+  "command": "sketch.inspect",
+  "params": {}
+ },
+ "content": [
+  {
+   "text": "{\n  \"constraints\": [\n    {\n      \"id\": \"k1\",\n      \"l\": 0,\n      \"name\": \"Horizontal\",\n      \"type\": \"horizontal\"\n    },\n    {\n      \"id\": \"k2\",\n      \"l\": 2,\n      \"name\": \"Horizontal\",\n      \"type\": \"horizontal\"\n    },\n    {\n      \"id\": \"k3\",\n      \"l\": 1,\n      \"name\": \"Vertical\",\n      \"type\": \"vertical\"\n    },\n    {\n      \"id\": \"k4\",\n      \"l\": 3,\n      \"name\": \"Vertical\",\n      \"type\": \"vertical\"\n    },\n    {\n      \"id\": \"k5\",\n      \"name\": \"Coincident\",\n      \"p\": 0,\n      \"q\": 1,\n      \"type\": \"coincident\"\n    }\n  ],\n  \"curves\": [\n    {\n      \"construction\": false,\n      \"end\": \"p2\",\n      \"end_at\": [\n        80.0,\n        0.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"l1\",\n      \"start\": \"p1\",\n      \"start_at\": [\n        0.0,\n        0.0\n      ],\n      \"type\": \"line\"\n    },\n    {\n      \"construction\": false,\n      \"end\": \"p3\",\n      \"end_at\": [\n        80.0,\n        50.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"l2\",\n      \"start\": \"p2\",\n      \"start_at\": [\n        80.0,\n        0.0\n      ],\n      \"type\": \"line\"\n    },\n    {\n      \"construction\": false,\n      \"end\": \"p4\",\n      \"end_at\": [\n        0.0,\n        50.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"l3\",\n      \"start\": \"p3\",\n      \"start_at\": [\n        80.0,\n        50.0\n      ],\n      \"type\": \"line\"\n    },\n    {\n      \"construction\": false,\n      \"end\": \"p1\",\n      \"end_at\": [\n        0.0,\n        0.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"l4\",\n      \"start\": \"p4\",\n      \"start_at\": [\n        0.0,\n        50.0\n      ],\n      \"type\": \"line\"\n    }\n  ],\n  \"dof\": 2,\n  \"failing\": [],\n  \"fully_constrained\": false,\n  \"id\": 1,\n  \"links\": [],\n  \"name\": \"Plate\",\n  \"plane\": {\n    \"origin\": [\n      0.0,\n      0.0,\n      0.0\n    ],\n    \"x_dir\": [\n      1.0,\n      0.0,\n      0.0\n    ],\n    \"y_dir\": [\n      0.0,\n      1.0,\n      0.0\n    ]\n  },\n  \"points\": [\n    {\n      \"at\": [\n        0.0,\n        0.0\n      ],\n      \"fixed\": true,\n      \"fully_constrained\": true,\n      \"id\": \"origin\",\n      \"link\": null,\n      \"world\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"at\": [\n        0.0,\n        0.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": true,\n      \"id\": \"p1\",\n      \"link\": null,\n      \"world\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"at\": [\n        80.0,\n        0.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"p2\",\n      \"link\": null,\n      \"world\": [\n        80.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"at\": [\n        80.0,\n        50.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"p3\",\n      \"link\": null,\n      \"world\": [\n        80.0,\n        50.0,\n        0.0\n      ]\n    },\n    {\n      \"at\": [\n        0.0,\n        50.0\n      ],\n      \"fixed\": false,\n      \"fully_constrained\": false,\n      \"id\": \"p4\",\n      \"link\": null,\n      \"world\": [\n        0.0,\n        50.0,\n        0.0\n      ]\n    }\n  ],\n  \"profiles\": [\n    {\n      \"area_mm2\": 4000.0,\n      \"centroid_sketch\": [\n        40.0,\n        25.0\n      ],\n      \"curves\": [\n        \"l1\",\n        \"l2\",\n        \"l3\",\n        \"l4\"\n      ],\n      \"holes\": [],\n      \"index\": 0\n    }\n  ],\n  \"status\": \"solved\",\n  \"visible\": true,\n  \"wires\": []\n}",
+   "type": "text",
+   "text_parsed": {
+    "constraints": [
+     {
+      "id": "k1",
+      "l": 0,
+      "name": "Horizontal",
+      "type": "horizontal"
+     },
+     {
+      "id": "k2",
+      "l": 2,
+      "name": "Horizontal",
+      "type": "horizontal"
+     },
+     {
+      "id": "k3",
+      "l": 1,
+      "name": "Vertical",
+      "type": "vertical"
+     },
+     {
+      "id": "k4",
+      "l": 3,
+      "name": "Vertical",
+      "type": "vertical"
+     },
+     {
+      "id": "k5",
+      "name": "Coincident",
+      "p": 0,
+      "q": 1,
+      "type": "coincident"
+     }
+    ],
+    "curves": [
+     {
+      "construction": false,
+      "end": "p2",
+      "end_at": [
+       80.0,
+       0.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "l1",
+      "start": "p1",
+      "start_at": [
+       0.0,
+       0.0
+      ],
+      "type": "line"
+     },
+     {
+      "construction": false,
+      "end": "p3",
+      "end_at": [
+       80.0,
+       50.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "l2",
+      "start": "p2",
+      "start_at": [
+       80.0,
+       0.0
+      ],
+      "type": "line"
+     },
+     {
+      "construction": false,
+      "end": "p4",
+      "end_at": [
+       0.0,
+       50.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "l3",
+      "start": "p3",
+      "start_at": [
+       80.0,
+       50.0
+      ],
+      "type": "line"
+     },
+     {
+      "construction": false,
+      "end": "p1",
+      "end_at": [
+       0.0,
+       0.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "l4",
+      "start": "p4",
+      "start_at": [
+       0.0,
+       50.0
+      ],
+      "type": "line"
+     }
+    ],
+    "dof": 2,
+    "failing": [],
+    "fully_constrained": false,
+    "id": 1,
+    "links": [],
+    "name": "Plate",
+    "plane": {
+     "origin": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "x_dir": [
+      1.0,
+      0.0,
+      0.0
+     ],
+     "y_dir": [
+      0.0,
+      1.0,
+      0.0
+     ]
+    },
+    "points": [
+     {
+      "at": [
+       0.0,
+       0.0
+      ],
+      "fixed": true,
+      "fully_constrained": true,
+      "id": "origin",
+      "link": null,
+      "world": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "at": [
+       0.0,
+       0.0
+      ],
+      "fixed": false,
+      "fully_constrained": true,
+      "id": "p1",
+      "link": null,
+      "world": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "at": [
+       80.0,
+       0.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "p2",
+      "link": null,
+      "world": [
+       80.0,
+       0.0,
+       0.0
+      ]
+     },
+     {
+      "at": [
+       80.0,
+       50.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "p3",
+      "link": null,
+      "world": [
+       80.0,
+       50.0,
+       0.0
+      ]
+     },
+     {
+      "at": [
+       0.0,
+       50.0
+      ],
+      "fixed": false,
+      "fully_constrained": false,
+      "id": "p4",
+      "link": null,
+      "world": [
+       0.0,
+       50.0,
+       0.0
+      ]
+     }
+    ],
+    "profiles": [
+     {
+      "area_mm2": 4000.0,
+      "centroid_sketch": [
+       40.0,
+       25.0
+      ],
+      "curves": [
+       "l1",
+       "l2",
+       "l3",
+       "l4"
+      ],
+      "holes": [],
+      "index": 0
+     }
+    ],
+    "status": "solved",
+    "visible": true,
+    "wires": []
+   }
+  }
+ ]
+}

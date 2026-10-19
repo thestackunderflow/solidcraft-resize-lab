@@ -1,0 +1,52 @@
+FFF...                                                                   [100%]
+=================================== FAILURES ===================================
+_______ test_hard_coded_demo_shows_errors_empty_and_the_timeline_warning _______
+
+    def test_hard_coded_demo_shows_errors_empty_and_the_timeline_warning():
+>       cs = calls(os.path.join(OUT, 'demo', 'hard-coded', 'transcript.jsonl'))
+
+tests/test_evidence.py:21: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = '/work/tests/../out/demo/hard-coded/transcript.jsonl'
+
+    def calls(path):
+>       L = [json.loads(l) for l in open(path, encoding='utf-8')]
+E       FileNotFoundError: [Errno 2] No such file or directory: '/work/tests/../out/demo/hard-coded/transcript.jsonl'
+
+tests/test_evidence.py:9: FileNotFoundError
+___________________ test_constrained_demo_solves_to_zero_dof ___________________
+
+    def test_constrained_demo_solves_to_zero_dof():
+>       cs = calls(os.path.join(OUT, 'demo', 'constrained', 'transcript.jsonl'))
+
+tests/test_evidence.py:30: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = '/work/tests/../out/demo/constrained/transcript.jsonl'
+
+    def calls(path):
+>       L = [json.loads(l) for l in open(path, encoding='utf-8')]
+E       FileNotFoundError: [Errno 2] No such file or directory: '/work/tests/../out/demo/constrained/transcript.jsonl'
+
+tests/test_evidence.py:9: FileNotFoundError
+___________ test_xz_demo_plain_point_reports_ok_but_changes_no_body ____________
+
+    def test_xz_demo_plain_point_reports_ok_but_changes_no_body():
+>       cs = calls(os.path.join(OUT, 'demo', 'xz-plane', 'transcript.jsonl'))
+
+tests/test_evidence.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+path = '/work/tests/../out/demo/xz-plane/transcript.jsonl'
+
+    def calls(path):
+>       L = [json.loads(l) for l in open(path, encoding='utf-8')]
+E       FileNotFoundError: [Errno 2] No such file or directory: '/work/tests/../out/demo/xz-plane/transcript.jsonl'
+
+tests/test_evidence.py:9: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_evidence.py::test_hard_coded_demo_shows_errors_empty_and_the_timeline_warning
+FAILED tests/test_evidence.py::test_constrained_demo_solves_to_zero_dof - Fil...
+FAILED tests/test_evidence.py::test_xz_demo_plain_point_reports_ok_but_changes_no_body
+3 failed, 3 passed in 0.44s

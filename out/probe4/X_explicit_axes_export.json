@@ -1,0 +1,17 @@
+{
+ "arguments": {
+  "path": "/lab/out/X-explicit_axes.stl",
+  "format": "stl"
+ },
+ "content": [
+  {
+   "text": "{\n  \"bytes\": 23684,\n  \"format\": \"StlBinary\",\n  \"path\": \"/lab/out/X-explicit_axes.stl\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "bytes": 23684,
+    "format": "StlBinary",
+    "path": "/lab/out/X-explicit_axes.stl"
+   }
+  }
+ ]
+}

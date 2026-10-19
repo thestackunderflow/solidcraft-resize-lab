@@ -1,0 +1,21 @@
+{
+ "arguments": {
+  "name": "width",
+  "value": "120 mm"
+ },
+ "content": [
+  {
+   "text": "{\n  \"display_value\": 120.0,\n  \"errors\": [],\n  \"expression\": \"120 mm\",\n  \"name\": \"width\",\n  \"recomputed\": 2,\n  \"restored\": 0,\n  \"value\": 120.0\n}",
+   "type": "text",
+   "text_parsed": {
+    "display_value": 120.0,
+    "errors": [],
+    "expression": "120 mm",
+    "name": "width",
+    "recomputed": 2,
+    "restored": 0,
+    "value": 120.0
+   }
+  }
+ ]
+}

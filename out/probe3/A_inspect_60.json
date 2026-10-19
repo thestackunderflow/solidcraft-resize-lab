@@ -1,0 +1,435 @@
+{
+ "arguments": {},
+ "content": [
+  {
+   "text": "{\n  \"active_sketch\": null,\n  \"bodies\": [\n    {\n      \"area_mm2\": 7140.867432214669,\n      \"bbox\": {\n        \"max\": [\n          60.0,\n          50.0,\n          5.0000000000000036\n        ],\n        \"min\": [\n          0.0,\n          0.0,\n          0.0\n        ]\n      },\n      \"center_of_mass\": [\n        29.906220544270745,\n        25.000000000897444,\n        2.49999999996016\n      ],\n      \"edges\": 18,\n      \"face_types\": {\n        \"cylinder\": 3,\n        \"plane\": 6\n      },\n      \"faces\": 9,\n      \"kernel\": {\n        \"edges\": 30,\n        \"faces\": 12,\n        \"shells\": 1,\n        \"vertices\": 20\n      },\n      \"name\": \"Plate\",\n      \"vertices\": 14,\n      \"visible\": true,\n      \"volume_mm3\": 14238.2602043413\n    }\n  ],\n  \"dirty\": true,\n  \"hidden_origin\": [],\n  \"marker\": 7,\n  \"metadata\": {},\n  \"name\": \"Untitled\",\n  \"params\": [\n    {\n      \"comment\": \"\",\n      \"error\": null,\n      \"expression\": \"60 mm\",\n      \"model\": false,\n      \"name\": \"width\",\n      \"unit\": \"mm\",\n      \"value\": 60.0\n    },\n    {\n      \"comment\": \"\",\n      \"error\": null,\n      \"expression\": \"width\",\n      \"model\": true,\n      \"name\": \"d1\",\n      \"unit\": \"mm\",\n      \"value\": 60.0\n    },\n    {\n      \"comment\": \"\",\n      \"error\": null,\n      \"expression\": \"50 mm\",\n      \"model\": true,\n      \"name\": \"d2\",\n      \"unit\": \"mm\",\n      \"value\": 50.0\n    }\n  ],\n  \"path\": null,\n  \"redo\": 0,\n  \"revision\": 22,\n  \"selection\": [],\n  \"sketches\": [\n    {\n      \"constraints\": [\n        {\n          \"id\": \"k1\",\n          \"l\": 0,\n          \"name\": \"Horizontal\",\n          \"type\": \"horizontal\"\n        },\n        {\n          \"id\": \"k2\",\n          \"l\": 2,\n          \"name\": \"Horizontal\",\n          \"type\": \"horizontal\"\n        },\n        {\n          \"id\": \"k3\",\n          \"l\": 1,\n          \"name\": \"Vertical\",\n          \"type\": \"vertical\"\n        },\n        {\n          \"id\": \"k4\",\n          \"l\": 3,\n          \"name\": \"Vertical\",\n          \"type\": \"vertical\"\n        },\n        {\n          \"id\": \"k5\",\n          \"name\": \"Coincident\",\n          \"p\": 0,\n          \"q\": 1,\n          \"type\": \"coincident\"\n        },\n        {\n          \"expression\": \"width\",\n          \"id\": \"k6\",\n          \"l\": 0,\n          \"name\": \"LinearDimension\",\n          \"param\": \"d1\",\n          \"type\": \"length\",\n          \"value\": 60.0\n        },\n        {\n          \"expression\": \"50 mm\",\n          \"id\": \"k7\",\n          \"l\": 3,\n          \"name\": \"LinearDimension\",\n          \"param\": \"d2\",\n          \"type\": \"length\",\n          \"value\": 50.0\n        }\n      ],\n      \"curves\": [\n        {\n          \"construction\": false,\n          \"end\": \"p2\",\n          \"end_at\": [\n            60.0,\n            0.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"l1\",\n          \"start\": \"p1\",\n          \"start_at\": [\n            0.0,\n            0.0\n          ],\n          \"type\": \"line\"\n        },\n        {\n          \"construction\": false,\n          \"end\": \"p3\",\n          \"end_at\": [\n            60.0,\n            50.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"l2\",\n          \"start\": \"p2\",\n          \"start_at\": [\n            60.0,\n            0.0\n          ],\n          \"type\": \"line\"\n        },\n        {\n          \"construction\": false,\n          \"end\": \"p4\",\n          \"end_at\": [\n            0.0,\n            50.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"l3\",\n          \"start\": \"p3\",\n          \"start_at\": [\n            60.0,\n            50.0\n          ],\n          \"type\": \"line\"\n        },\n        {\n          \"construction\": false,\n          \"end\": \"p1\",\n          \"end_at\": [\n            0.0,\n            0.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"l4\",\n          \"start\": \"p4\",\n          \"start_at\": [\n            0.0,\n            50.0\n          ],\n          \"type\": \"line\"\n        }\n      ],\n      \"dof\": 0,\n      \"failing\": [],\n      \"fully_constrained\": true,\n      \"id\": 1,\n      \"links\": [],\n      \"name\": \"Plate\",\n      \"plane\": {\n        \"origin\": [\n          0.0,\n          0.0,\n          0.0\n        ],\n        \"x_dir\": [\n          1.0,\n          0.0,\n          0.0\n        ],\n        \"y_dir\": [\n          0.0,\n          1.0,\n          0.0\n        ]\n      },\n      \"points\": [\n        {\n          \"at\": [\n            0.0,\n            0.0\n          ],\n          \"fixed\": true,\n          \"fully_constrained\": true,\n          \"id\": \"origin\",\n          \"link\": null,\n          \"world\": [\n            0.0,\n            0.0,\n            0.0\n          ]\n        },\n        {\n          \"at\": [\n            0.0,\n            0.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"p1\",\n          \"link\": null,\n          \"world\": [\n            0.0,\n            0.0,\n            0.0\n          ]\n        },\n        {\n          \"at\": [\n            60.0,\n            0.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"p2\",\n          \"link\": null,\n          \"world\": [\n            60.0,\n            0.0,\n            0.0\n          ]\n        },\n        {\n          \"at\": [\n            60.0,\n            50.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"p3\",\n          \"link\": null,\n          \"world\": [\n            60.0,\n            50.0,\n            0.0\n          ]\n        },\n        {\n          \"at\": [\n            0.0,\n            50.0\n          ],\n          \"fixed\": false,\n          \"fully_constrained\": true,\n          \"id\": \"p4\",\n          \"link\": null,\n          \"world\": [\n            0.0,\n            50.0,\n            0.0\n          ]\n        }\n      ],\n      \"profiles\": [\n        {\n          \"area_mm2\": 3000.0,\n          \"centroid_sketch\": [\n            30.0,\n            25.0\n          ],\n          \"curves\": [\n            \"l1\",\n            \"l2\",\n            \"l3\",\n            \"l4\"\n          ],\n          \"holes\": [],\n          \"index\": 0\n        }\n      ],\n      \"status\": \"solved\",\n      \"visible\": false,\n      \"wires\": []\n    }\n  ],\n  \"timeline\": [\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 1,\n      \"ms\": 0.07715799999999999,\n      \"name\": \"Plate\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"Sketch\",\n      \"warning\": null\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 2,\n      \"ms\": 3.35766,\n      \"name\": \"Extrude1\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"ExtrudeFeature\",\n      \"warning\": null\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 3,\n      \"ms\": 26.989931000000002,\n      \"name\": \"Hole1\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"HoleFeature\",\n      \"warning\": null\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 4,\n      \"ms\": 23.251291000000002,\n      \"name\": \"Hole2\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"HoleFeature\",\n      \"warning\": \"the hole's position [72, 8, 5] is no longer on face `F2:top`: it stays where it was placed\"\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 5,\n      \"ms\": 27.462398999999998,\n      \"name\": \"Hole3\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"HoleFeature\",\n      \"warning\": null\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 6,\n      \"ms\": 24.937984,\n      \"name\": \"Hole4\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"HoleFeature\",\n      \"warning\": \"the hole's position [72, 42, 5] is no longer on face `F2:top`: it stays where it was placed\"\n    },\n    {\n      \"boolean_diagnostics\": {\n        \"events\": [],\n        \"truncated\": false\n      },\n      \"error\": null,\n      \"id\": 7,\n      \"ms\": 29.083050999999998,\n      \"name\": \"Hole5\",\n      \"rolled_back\": false,\n      \"suppressed\": false,\n      \"type\": \"HoleFeature\",\n      \"warning\": null\n    }\n  ],\n  \"undo\": 12,\n  \"units\": \"mm\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "active_sketch": null,
+    "bodies": [
+     {
+      "area_mm2": 7140.867432214669,
+      "bbox": {
+       "max": [
+        60.0,
+        50.0,
+        5.0000000000000036
+       ],
+       "min": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "center_of_mass": [
+       29.906220544270745,
+       25.000000000897444,
+       2.49999999996016
+      ],
+      "edges": 18,
+      "face_types": {
+       "cylinder": 3,
+       "plane": 6
+      },
+      "faces": 9,
+      "kernel": {
+       "edges": 30,
+       "faces": 12,
+       "shells": 1,
+       "vertices": 20
+      },
+      "name": "Plate",
+      "vertices": 14,
+      "visible": true,
+      "volume_mm3": 14238.2602043413
+     }
+    ],
+    "dirty": true,
+    "hidden_origin": [],
+    "marker": 7,
+    "metadata": {},
+    "name": "Untitled",
+    "params": [
+     {
+      "comment": "",
+      "error": null,
+      "expression": "60 mm",
+      "model": false,
+      "name": "width",
+      "unit": "mm",
+      "value": 60.0
+     },
+     {
+      "comment": "",
+      "error": null,
+      "expression": "width",
+      "model": true,
+      "name": "d1",
+      "unit": "mm",
+      "value": 60.0
+     },
+     {
+      "comment": "",
+      "error": null,
+      "expression": "50 mm",
+      "model": true,
+      "name": "d2",
+      "unit": "mm",
+      "value": 50.0
+     }
+    ],
+    "path": null,
+    "redo": 0,
+    "revision": 22,
+    "selection": [],
+    "sketches": [
+     {
+      "constraints": [
+       {
+        "id": "k1",
+        "l": 0,
+        "name": "Horizontal",
+        "type": "horizontal"
+       },
+       {
+        "id": "k2",
+        "l": 2,
+        "name": "Horizontal",
+        "type": "horizontal"
+       },
+       {
+        "id": "k3",
+        "l": 1,
+        "name": "Vertical",
+        "type": "vertical"
+       },
+       {
+        "id": "k4",
+        "l": 3,
+        "name": "Vertical",
+        "type": "vertical"
+       },
+       {
+        "id": "k5",
+        "name": "Coincident",
+        "p": 0,
+        "q": 1,
+        "type": "coincident"
+       },
+       {
+        "expression": "width",
+        "id": "k6",
+        "l": 0,
+        "name": "LinearDimension",
+        "param": "d1",
+        "type": "length",
+        "value": 60.0
+       },
+       {
+        "expression": "50 mm",
+        "id": "k7",
+        "l": 3,
+        "name": "LinearDimension",
+        "param": "d2",
+        "type": "length",
+        "value": 50.0
+       }
+      ],
+      "curves": [
+       {
+        "construction": false,
+        "end": "p2",
+        "end_at": [
+         60.0,
+         0.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "l1",
+        "start": "p1",
+        "start_at": [
+         0.0,
+         0.0
+        ],
+        "type": "line"
+       },
+       {
+        "construction": false,
+        "end": "p3",
+        "end_at": [
+         60.0,
+         50.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "l2",
+        "start": "p2",
+        "start_at": [
+         60.0,
+         0.0
+        ],
+        "type": "line"
+       },
+       {
+        "construction": false,
+        "end": "p4",
+        "end_at": [
+         0.0,
+         50.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "l3",
+        "start": "p3",
+        "start_at": [
+         60.0,
+         50.0
+        ],
+        "type": "line"
+       },
+       {
+        "construction": false,
+        "end": "p1",
+        "end_at": [
+         0.0,
+         0.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "l4",
+        "start": "p4",
+        "start_at": [
+         0.0,
+         50.0
+        ],
+        "type": "line"
+       }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 1,
+      "links": [],
+      "name": "Plate",
+      "plane": {
+       "origin": [
+        0.0,
+        0.0,
+        0.0
+       ],
+       "x_dir": [
+        1.0,
+        0.0,
+        0.0
+       ],
+       "y_dir": [
+        0.0,
+        1.0,
+        0.0
+       ]
+      },
+      "points": [
+       {
+        "at": [
+         0.0,
+         0.0
+        ],
+        "fixed": true,
+        "fully_constrained": true,
+        "id": "origin",
+        "link": null,
+        "world": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "at": [
+         0.0,
+         0.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "p1",
+        "link": null,
+        "world": [
+         0.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "at": [
+         60.0,
+         0.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "p2",
+        "link": null,
+        "world": [
+         60.0,
+         0.0,
+         0.0
+        ]
+       },
+       {
+        "at": [
+         60.0,
+         50.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "p3",
+        "link": null,
+        "world": [
+         60.0,
+         50.0,
+         0.0
+        ]
+       },
+       {
+        "at": [
+         0.0,
+         50.0
+        ],
+        "fixed": false,
+        "fully_constrained": true,
+        "id": "p4",
+        "link": null,
+        "world": [
+         0.0,
+         50.0,
+         0.0
+        ]
+       }
+      ],
+      "profiles": [
+       {
+        "area_mm2": 3000.0,
+        "centroid_sketch": [
+         30.0,
+         25.0
+        ],
+        "curves": [
+         "l1",
+         "l2",
+         "l3",
+         "l4"
+        ],
+        "holes": [],
+        "index": 0
+       }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+     }
+    ],
+    "timeline": [
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.07715799999999999,
+      "name": "Plate",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 3.35766,
+      "name": "Extrude1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 26.989931000000002,
+      "name": "Hole1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "HoleFeature",
+      "warning": null
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 23.251291000000002,
+      "name": "Hole2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "HoleFeature",
+      "warning": "the hole's position [72, 8, 5] is no longer on face `F2:top`: it stays where it was placed"
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 27.462398999999998,
+      "name": "Hole3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "HoleFeature",
+      "warning": null
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 24.937984,
+      "name": "Hole4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "HoleFeature",
+      "warning": "the hole's position [72, 42, 5] is no longer on face `F2:top`: it stays where it was placed"
+     },
+     {
+      "boolean_diagnostics": {
+       "events": [],
+       "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 29.083050999999998,
+      "name": "Hole5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "HoleFeature",
+      "warning": null
+     }
+    ],
+    "undo": 12,
+    "units": "mm"
+   }
+  }
+ ]
+}

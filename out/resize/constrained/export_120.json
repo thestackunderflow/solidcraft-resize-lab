@@ -1,0 +1,13 @@
+{
+ "content": [
+  {
+   "text": "{\n  \"bytes\": 67884,\n  \"format\": \"StlBinary\",\n  \"path\": \"/lab/out/constrained-120.stl\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "bytes": 67884,
+    "format": "StlBinary",
+    "path": "/lab/out/constrained-120.stl"
+   }
+  }
+ ]
+}

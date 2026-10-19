@@ -1,0 +1,511 @@
+{
+ "content": [
+  {
+   "text": "{\n  \"completed\": 25,\n  \"ok\": true,\n  \"results\": [\n    {\n      \"display_value\": 80.0,\n      \"errors\": [],\n      \"expression\": \"80 mm\",\n      \"name\": \"width\",\n      \"recomputed\": 0,\n      \"restored\": 0,\n      \"value\": 80.0\n    },\n    {\n      \"attachment\": \"fixed\",\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [],\n        \"points\": []\n      },\n      \"name\": \"Plate\",\n      \"projected\": null,\n      \"sketch\": 1\n    },\n    {\n      \"constraints\": [\n        \"k1\",\n        \"k2\",\n        \"k3\",\n        \"k4\",\n        \"k5\"\n      ],\n      \"corners\": {\n        \"bottom_left\": \"p1\",\n        \"bottom_right\": \"p2\",\n        \"top_left\": \"p4\",\n        \"top_right\": \"p3\"\n      },\n      \"created\": {\n        \"constraints\": [\n          \"k1\",\n          \"k2\",\n          \"k3\",\n          \"k4\",\n          \"k5\"\n        ],\n        \"curves\": [\n          \"l1\",\n          \"l2\",\n          \"l3\",\n          \"l4\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"p1\",\n          \"p2\",\n          \"p3\",\n          \"p4\"\n        ]\n      },\n      \"curves\": [\n        \"l1\",\n        \"l2\",\n        \"l3\",\n        \"l4\"\n      ],\n      \"sides\": {\n        \"bottom\": \"l1\",\n        \"left\": \"l4\",\n        \"right\": \"l2\",\n        \"top\": \"l3\"\n      },\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k6\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"width\",\n      \"measured\": 80.0,\n      \"param\": \"d1\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k7\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"50 mm\",\n      \"measured\": 50.0,\n      \"param\": \"d2\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [\n          \"c1\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"c1.center\"\n        ]\n      },\n      \"curves\": [\n        \"c1\"\n      ],\n      \"sketch\": {\n        \"dof\": 3,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k8\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"5 mm\",\n      \"measured\": 5.0,\n      \"param\": \"d3\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      },\n      \"type\": \"DiameterDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k9\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d4\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k10\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d5\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [\n          \"c2\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"c2.center\"\n        ]\n      },\n      \"curves\": [\n        \"c2\"\n      ],\n      \"sketch\": {\n        \"dof\": 3,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k11\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"5 mm\",\n      \"measured\": 5.0,\n      \"param\": \"d6\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      },\n      \"type\": \"DiameterDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k12\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d7\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k13\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d8\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [\n          \"c3\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"c3.center\"\n        ]\n      },\n      \"curves\": [\n        \"c3\"\n      ],\n      \"sketch\": {\n        \"dof\": 3,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k14\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"5 mm\",\n      \"measured\": 5.0,\n      \"param\": \"d9\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      },\n      \"type\": \"DiameterDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k15\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d10\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k16\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d11\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [\n          \"c4\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"c4.center\"\n        ]\n      },\n      \"curves\": [\n        \"c4\"\n      ],\n      \"sketch\": {\n        \"dof\": 3,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k17\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"5 mm\",\n      \"measured\": 5.0,\n      \"param\": \"d12\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      },\n      \"type\": \"DiameterDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k18\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d13\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k19\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"8 mm\",\n      \"measured\": 8.0,\n      \"param\": \"d14\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [\n          \"c5\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"c5.center\"\n        ]\n      },\n      \"curves\": [\n        \"c5\"\n      ],\n      \"sketch\": {\n        \"dof\": 3,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k20\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"12 mm\",\n      \"measured\": 12.0,\n      \"param\": \"d15\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      },\n      \"type\": \"DiameterDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k21\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"width / 2\",\n      \"measured\": 40.0,\n      \"param\": \"d16\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k22\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"25 mm\",\n      \"measured\": 25.0,\n      \"param\": \"d17\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    }\n  ]\n}",
+   "type": "text",
+   "text_parsed": {
+    "completed": 25,
+    "ok": true,
+    "results": [
+     {
+      "display_value": 80.0,
+      "errors": [],
+      "expression": "80 mm",
+      "name": "width",
+      "recomputed": 0,
+      "restored": 0,
+      "value": 80.0
+     },
+     {
+      "attachment": "fixed",
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [],
+       "points": []
+      },
+      "name": "Plate",
+      "projected": null,
+      "sketch": 1
+     },
+     {
+      "constraints": [
+       "k1",
+       "k2",
+       "k3",
+       "k4",
+       "k5"
+      ],
+      "corners": {
+       "bottom_left": "p1",
+       "bottom_right": "p2",
+       "top_left": "p4",
+       "top_right": "p3"
+      },
+      "created": {
+       "constraints": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5"
+       ],
+       "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+       ],
+       "dimensions": [],
+       "points": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+       ]
+      },
+      "curves": [
+       "l1",
+       "l2",
+       "l3",
+       "l4"
+      ],
+      "sides": {
+       "bottom": "l1",
+       "left": "l4",
+       "right": "l2",
+       "top": "l3"
+      },
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k6"
+       ],
+       "points": []
+      },
+      "expression": "width",
+      "measured": 80.0,
+      "param": "d1",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k7"
+       ],
+       "points": []
+      },
+      "expression": "50 mm",
+      "measured": 50.0,
+      "param": "d2",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [
+        "c1"
+       ],
+       "dimensions": [],
+       "points": [
+        "c1.center"
+       ]
+      },
+      "curves": [
+       "c1"
+      ],
+      "sketch": {
+       "dof": 3,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k8"
+       ],
+       "points": []
+      },
+      "expression": "5 mm",
+      "measured": 5.0,
+      "param": "d3",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      },
+      "type": "DiameterDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k9"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d4",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k10"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d5",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [
+        "c2"
+       ],
+       "dimensions": [],
+       "points": [
+        "c2.center"
+       ]
+      },
+      "curves": [
+       "c2"
+      ],
+      "sketch": {
+       "dof": 3,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k11"
+       ],
+       "points": []
+      },
+      "expression": "5 mm",
+      "measured": 5.0,
+      "param": "d6",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      },
+      "type": "DiameterDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k12"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d7",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k13"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d8",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [
+        "c3"
+       ],
+       "dimensions": [],
+       "points": [
+        "c3.center"
+       ]
+      },
+      "curves": [
+       "c3"
+      ],
+      "sketch": {
+       "dof": 3,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k14"
+       ],
+       "points": []
+      },
+      "expression": "5 mm",
+      "measured": 5.0,
+      "param": "d9",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      },
+      "type": "DiameterDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k15"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d10",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k16"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d11",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [
+        "c4"
+       ],
+       "dimensions": [],
+       "points": [
+        "c4.center"
+       ]
+      },
+      "curves": [
+       "c4"
+      ],
+      "sketch": {
+       "dof": 3,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k17"
+       ],
+       "points": []
+      },
+      "expression": "5 mm",
+      "measured": 5.0,
+      "param": "d12",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      },
+      "type": "DiameterDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k18"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d13",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k19"
+       ],
+       "points": []
+      },
+      "expression": "8 mm",
+      "measured": 8.0,
+      "param": "d14",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [
+        "c5"
+       ],
+       "dimensions": [],
+       "points": [
+        "c5.center"
+       ]
+      },
+      "curves": [
+       "c5"
+      ],
+      "sketch": {
+       "dof": 3,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k20"
+       ],
+       "points": []
+      },
+      "expression": "12 mm",
+      "measured": 12.0,
+      "param": "d15",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      },
+      "type": "DiameterDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k21"
+       ],
+       "points": []
+      },
+      "expression": "width / 2",
+      "measured": 40.0,
+      "param": "d16",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k22"
+       ],
+       "points": []
+      },
+      "expression": "25 mm",
+      "measured": 25.0,
+      "param": "d17",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     }
+    ]
+   }
+  }
+ ]
+}

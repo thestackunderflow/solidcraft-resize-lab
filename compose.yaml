@@ -1,0 +1,18 @@
+# Every test runs in a container; nothing is installed on the host. Results: out/.
+services:
+  measure-tests:   # the plate measurer on synthetic meshes (NumPy only)
+    build: .
+    image: solidcraft-resize-lab:0.16.2
+    volumes: [".:/work"]
+    working_dir: /work
+    command: ["python3", "-m", "pytest", "-v", "-p", "no:cacheprovider", "tests/test_measure_plate.py"]
+  solidcraft-tests:   # SolidCraft 0.16.2 over MCP, no AI: hard-coded vs parametric plate, resizes, the XZ plane fixes
+    image: solidcraft-resize-lab:0.16.2
+    volumes: [".:/work", "./out/lab-out:/lab/out"]
+    working_dir: /work
+    command: ["python3", "-m", "pytest", "-v", "-p", "no:cacheprovider", "tests/test_resize.py", "tests/test_xz_plane.py"]
+  score:   # scores every agent run in out/runs/
+    image: solidcraft-resize-lab:0.16.2
+    volumes: [".:/work"]
+    working_dir: /work
+    command: ["python3", "claude-run/score.py"]

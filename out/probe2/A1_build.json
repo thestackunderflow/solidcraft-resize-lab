@@ -1,0 +1,331 @@
+{
+ "arguments": {
+  "commands": [
+   {
+    "command": "parameters.change",
+    "params": {
+     "name": "width",
+     "expression": "80 mm"
+    }
+   },
+   {
+    "command": "sketch.create",
+    "params": {
+     "plane": "XY",
+     "name": "Plate"
+    }
+   },
+   {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+     "p0": [
+      0,
+      0
+     ],
+     "p1": [
+      80,
+      50
+     ]
+    }
+   },
+   {
+    "command": "sketch.dimension",
+    "params": {
+     "entities": [
+      "l1"
+     ],
+     "type": "length",
+     "value": "width"
+    }
+   },
+   {
+    "command": "sketch.dimension",
+    "params": {
+     "entities": [
+      "l4"
+     ],
+     "type": "length",
+     "value": "50 mm"
+    }
+   },
+   {
+    "command": "sketch.finish",
+    "params": {}
+   },
+   {
+    "command": "solid.extrude",
+    "params": {
+     "distance": "5 mm",
+     "body_name": "Plate"
+    }
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "position": [
+      8,
+      8,
+      5
+     ],
+     "diameter": 5
+    }
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "position": [
+      72,
+      8,
+      5
+     ],
+     "diameter": 5
+    }
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "position": [
+      8,
+      42,
+      5
+     ],
+     "diameter": 5
+    }
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "position": [
+      72,
+      42,
+      5
+     ],
+     "diameter": 5
+    }
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "position": [
+      40,
+      25,
+      5
+     ],
+     "diameter": 12
+    }
+   }
+  ]
+ },
+ "content": [
+  {
+   "text": "{\n  \"completed\": 12,\n  \"ok\": true,\n  \"results\": [\n    {\n      \"display_value\": 80.0,\n      \"errors\": [],\n      \"expression\": \"80 mm\",\n      \"name\": \"width\",\n      \"recomputed\": 0,\n      \"restored\": 0,\n      \"value\": 80.0\n    },\n    {\n      \"attachment\": \"fixed\",\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [],\n        \"points\": []\n      },\n      \"name\": \"Plate\",\n      \"projected\": null,\n      \"sketch\": 1\n    },\n    {\n      \"constraints\": [\n        \"k1\",\n        \"k2\",\n        \"k3\",\n        \"k4\",\n        \"k5\"\n      ],\n      \"corners\": {\n        \"bottom_left\": \"p1\",\n        \"bottom_right\": \"p2\",\n        \"top_left\": \"p4\",\n        \"top_right\": \"p3\"\n      },\n      \"created\": {\n        \"constraints\": [\n          \"k1\",\n          \"k2\",\n          \"k3\",\n          \"k4\",\n          \"k5\"\n        ],\n        \"curves\": [\n          \"l1\",\n          \"l2\",\n          \"l3\",\n          \"l4\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"p1\",\n          \"p2\",\n          \"p3\",\n          \"p4\"\n        ]\n      },\n      \"curves\": [\n        \"l1\",\n        \"l2\",\n        \"l3\",\n        \"l4\"\n      ],\n      \"sides\": {\n        \"bottom\": \"l1\",\n        \"left\": \"l4\",\n        \"right\": \"l2\",\n        \"top\": \"l3\"\n      },\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      }\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k6\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"width\",\n      \"measured\": 80.0,\n      \"param\": \"d1\",\n      \"sketch\": {\n        \"dof\": 1,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [\n          \"k7\"\n        ],\n        \"points\": []\n      },\n      \"expression\": \"50 mm\",\n      \"measured\": 50.0,\n      \"param\": \"d2\",\n      \"sketch\": {\n        \"dof\": 0,\n        \"solved\": true\n      },\n      \"type\": \"LinearDimension\",\n      \"unit\": \"mm\"\n    },\n    {\n      \"profiles\": 1,\n      \"sketch\": 1\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [],\n      \"created_bodies\": [\n        \"Plate\"\n      ],\n      \"feature\": 2,\n      \"ms\": 8.080885,\n      \"name\": \"Extrude1\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [\n        \"Plate\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 3,\n      \"ms\": 30.276601,\n      \"name\": \"Hole1\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [\n        \"Plate\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 4,\n      \"ms\": 21.549786,\n      \"name\": \"Hole2\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [\n        \"Plate\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 5,\n      \"ms\": 22.764522,\n      \"name\": \"Hole3\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [\n        \"Plate\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 6,\n      \"ms\": 25.239444,\n      \"name\": \"Hole4\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [\n        \"Plate\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 7,\n      \"ms\": 24.024637000000002,\n      \"name\": \"Hole5\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    }\n  ]\n}",
+   "type": "text",
+   "text_parsed": {
+    "completed": 12,
+    "ok": true,
+    "results": [
+     {
+      "display_value": 80.0,
+      "errors": [],
+      "expression": "80 mm",
+      "name": "width",
+      "recomputed": 0,
+      "restored": 0,
+      "value": 80.0
+     },
+     {
+      "attachment": "fixed",
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [],
+       "points": []
+      },
+      "name": "Plate",
+      "projected": null,
+      "sketch": 1
+     },
+     {
+      "constraints": [
+       "k1",
+       "k2",
+       "k3",
+       "k4",
+       "k5"
+      ],
+      "corners": {
+       "bottom_left": "p1",
+       "bottom_right": "p2",
+       "top_left": "p4",
+       "top_right": "p3"
+      },
+      "created": {
+       "constraints": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5"
+       ],
+       "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+       ],
+       "dimensions": [],
+       "points": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+       ]
+      },
+      "curves": [
+       "l1",
+       "l2",
+       "l3",
+       "l4"
+      ],
+      "sides": {
+       "bottom": "l1",
+       "left": "l4",
+       "right": "l2",
+       "top": "l3"
+      },
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      }
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k6"
+       ],
+       "points": []
+      },
+      "expression": "width",
+      "measured": 80.0,
+      "param": "d1",
+      "sketch": {
+       "dof": 1,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [
+        "k7"
+       ],
+       "points": []
+      },
+      "expression": "50 mm",
+      "measured": 50.0,
+      "param": "d2",
+      "sketch": {
+       "dof": 0,
+       "solved": true
+      },
+      "type": "LinearDimension",
+      "unit": "mm"
+     },
+     {
+      "profiles": 1,
+      "sketch": 1
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+       "Plate"
+      ],
+      "feature": 2,
+      "ms": 8.080885,
+      "name": "Extrude1",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [
+       "Plate"
+      ],
+      "created_bodies": [],
+      "feature": 3,
+      "ms": 30.276601,
+      "name": "Hole1",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [
+       "Plate"
+      ],
+      "created_bodies": [],
+      "feature": 4,
+      "ms": 21.549786,
+      "name": "Hole2",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [
+       "Plate"
+      ],
+      "created_bodies": [],
+      "feature": 5,
+      "ms": 22.764522,
+      "name": "Hole3",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [
+       "Plate"
+      ],
+      "created_bodies": [],
+      "feature": 6,
+      "ms": 25.239444,
+      "name": "Hole4",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [
+       "Plate"
+      ],
+      "created_bodies": [],
+      "feature": 7,
+      "ms": 24.024637000000002,
+      "name": "Hole5",
+      "removed_bodies": [],
+      "warning": null
+     }
+    ]
+   }
+  }
+ ]
+}

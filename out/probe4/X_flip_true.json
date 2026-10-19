@@ -1,0 +1,206 @@
+{
+ "arguments": {
+  "commands": [
+   {
+    "command": "sketch.create",
+    "params": {
+     "plane": "XY",
+     "name": "Wall"
+    }
+   },
+   {
+    "command": "sketch.rectangle.two_point",
+    "params": {
+     "p0": [
+      0,
+      0
+     ],
+     "p1": [
+      80,
+      5
+     ]
+    }
+   },
+   {
+    "command": "sketch.finish",
+    "params": {}
+   },
+   {
+    "command": "solid.extrude",
+    "params": {
+     "distance": "40 mm",
+     "body_name": "Wall"
+    }
+   },
+   {
+    "command": "sketch.create",
+    "params": {
+     "plane": "XZ",
+     "flip": true,
+     "name": "HoleSketch"
+    }
+   },
+   {
+    "command": "sketch.point",
+    "params": {
+     "point": [
+      40,
+      20
+     ]
+    }
+   },
+   {
+    "command": "sketch.finish",
+    "params": {}
+   },
+   {
+    "command": "solid.hole",
+    "params": {
+     "sketch": "HoleSketch",
+     "diameter": 6
+    }
+   }
+  ]
+ },
+ "content": [
+  {
+   "text": "{\n  \"completed\": 8,\n  \"ok\": true,\n  \"results\": [\n    {\n      \"attachment\": \"fixed\",\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [],\n        \"points\": []\n      },\n      \"name\": \"Wall\",\n      \"projected\": null,\n      \"sketch\": 1\n    },\n    {\n      \"constraints\": [\n        \"k1\",\n        \"k2\",\n        \"k3\",\n        \"k4\",\n        \"k5\"\n      ],\n      \"corners\": {\n        \"bottom_left\": \"p1\",\n        \"bottom_right\": \"p2\",\n        \"top_left\": \"p4\",\n        \"top_right\": \"p3\"\n      },\n      \"created\": {\n        \"constraints\": [\n          \"k1\",\n          \"k2\",\n          \"k3\",\n          \"k4\",\n          \"k5\"\n        ],\n        \"curves\": [\n          \"l1\",\n          \"l2\",\n          \"l3\",\n          \"l4\"\n        ],\n        \"dimensions\": [],\n        \"points\": [\n          \"p1\",\n          \"p2\",\n          \"p3\",\n          \"p4\"\n        ]\n      },\n      \"curves\": [\n        \"l1\",\n        \"l2\",\n        \"l3\",\n        \"l4\"\n      ],\n      \"sides\": {\n        \"bottom\": \"l1\",\n        \"left\": \"l4\",\n        \"right\": \"l2\",\n        \"top\": \"l3\"\n      },\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      }\n    },\n    {\n      \"profiles\": 1,\n      \"sketch\": 1\n    },\n    {\n      \"bodies\": [\n        \"Wall\"\n      ],\n      \"changed_bodies\": [],\n      \"created_bodies\": [\n        \"Wall\"\n      ],\n      \"feature\": 2,\n      \"ms\": 4.168195000000001,\n      \"name\": \"Extrude1\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    },\n    {\n      \"attachment\": \"fixed\",\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [],\n        \"points\": []\n      },\n      \"name\": \"HoleSketch\",\n      \"projected\": null,\n      \"sketch\": 3\n    },\n    {\n      \"constraints\": [],\n      \"created\": {\n        \"constraints\": [],\n        \"curves\": [],\n        \"dimensions\": [],\n        \"points\": [\n          \"p1\"\n        ]\n      },\n      \"point\": \"p1\",\n      \"sketch\": {\n        \"dof\": 2,\n        \"solved\": true\n      }\n    },\n    {\n      \"profiles\": 0,\n      \"sketch\": 3\n    },\n    {\n      \"bodies\": [\n        \"Wall\"\n      ],\n      \"changed_bodies\": [\n        \"Wall\"\n      ],\n      \"created_bodies\": [],\n      \"feature\": 4,\n      \"ms\": 36.801684,\n      \"name\": \"Hole1\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    }\n  ]\n}",
+   "type": "text",
+   "text_parsed": {
+    "completed": 8,
+    "ok": true,
+    "results": [
+     {
+      "attachment": "fixed",
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [],
+       "points": []
+      },
+      "name": "Wall",
+      "projected": null,
+      "sketch": 1
+     },
+     {
+      "constraints": [
+       "k1",
+       "k2",
+       "k3",
+       "k4",
+       "k5"
+      ],
+      "corners": {
+       "bottom_left": "p1",
+       "bottom_right": "p2",
+       "top_left": "p4",
+       "top_right": "p3"
+      },
+      "created": {
+       "constraints": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5"
+       ],
+       "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+       ],
+       "dimensions": [],
+       "points": [
+        "p1",
+        "p2",
+        "p3",
+        "p4"
+       ]
+      },
+      "curves": [
+       "l1",
+       "l2",
+       "l3",
+       "l4"
+      ],
+      "sides": {
+       "bottom": "l1",
+       "left": "l4",
+       "right": "l2",
+       "top": "l3"
+      },
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      }
+     },
+     {
+      "profiles": 1,
+      "sketch": 1
+     },
+     {
+      "bodies": [
+       "Wall"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+       "Wall"
+      ],
+      "feature": 2,
+      "ms": 4.168195000000001,
+      "name": "Extrude1",
+      "removed_bodies": [],
+      "warning": null
+     },
+     {
+      "attachment": "fixed",
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [],
+       "points": []
+      },
+      "name": "HoleSketch",
+      "projected": null,
+      "sketch": 3
+     },
+     {
+      "constraints": [],
+      "created": {
+       "constraints": [],
+       "curves": [],
+       "dimensions": [],
+       "points": [
+        "p1"
+       ]
+      },
+      "point": "p1",
+      "sketch": {
+       "dof": 2,
+       "solved": true
+      }
+     },
+     {
+      "profiles": 0,
+      "sketch": 3
+     },
+     {
+      "bodies": [
+       "Wall"
+      ],
+      "changed_bodies": [
+       "Wall"
+      ],
+      "created_bodies": [],
+      "feature": 4,
+      "ms": 36.801684,
+      "name": "Hole1",
+      "removed_bodies": [],
+      "warning": null
+     }
+    ]
+   }
+  }
+ ]
+}

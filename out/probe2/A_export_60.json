@@ -1,0 +1,17 @@
+{
+ "arguments": {
+  "path": "/lab/out/A-60.stl",
+  "format": "stl"
+ },
+ "content": [
+  {
+   "text": "{\n  \"bytes\": 77684,\n  \"format\": \"StlBinary\",\n  \"path\": \"/lab/out/A-60.stl\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "bytes": 77684,
+    "format": "StlBinary",
+    "path": "/lab/out/A-60.stl"
+   }
+  }
+ ]
+}

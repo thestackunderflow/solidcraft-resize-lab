@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-7.4.4, pluggy-1.4.0 -- /usr/bin/python3
+rootdir: /work
+collecting ... collected 15 items
+
+tests/test_resize.py::test_0_version PASSED                              [  6%]
+tests/test_resize.py::test_1_hard_coded_plate_is_right_at_80 PASSED      [ 13%]
+tests/test_resize.py::test_2_hard_coded_at_120_the_outline_grows_and_the_holes_stay PASSED [ 20%]
+tests/test_resize.py::test_3_hard_coded_at_60_two_holes_vanish_and_the_reply_lists_no_errors PASSED [ 26%]
+tests/test_resize.py::test_4_constrained_sketch_has_no_degrees_of_freedom_left PASSED [ 33%]
+tests/test_resize.py::test_5_constrained_plate_is_right_at_every_width[80] PASSED [ 40%]
+tests/test_resize.py::test_5_constrained_plate_is_right_at_every_width[120] PASSED [ 46%]
+tests/test_resize.py::test_5_constrained_plate_is_right_at_every_width[60] PASSED [ 53%]
+tests/test_xz_plane.py::test_every_variant_is_tested PASSED              [ 60%]
+tests/test_xz_plane.py::test_where_the_hole_lands[plain_y+20] PASSED     [ 66%]
+tests/test_xz_plane.py::test_where_the_hole_lands[draw_y-20] PASSED      [ 73%]
+tests/test_xz_plane.py::test_where_the_hole_lands[flip_true] PASSED      [ 80%]
+tests/test_xz_plane.py::test_where_the_hole_lands[flip_x] PASSED         [ 86%]
+tests/test_xz_plane.py::test_where_the_hole_lands[flip_y] PASSED         [ 93%]
+tests/test_xz_plane.py::test_where_the_hole_lands[explicit_axes] PASSED  [100%]
+
+============================== 15 passed in 1.86s ==============================

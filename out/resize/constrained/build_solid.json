@@ -1,0 +1,32 @@
+{
+ "content": [
+  {
+   "text": "{\n  \"completed\": 2,\n  \"ok\": true,\n  \"results\": [\n    {\n      \"profiles\": 6,\n      \"sketch\": 1\n    },\n    {\n      \"bodies\": [\n        \"Plate\"\n      ],\n      \"changed_bodies\": [],\n      \"created_bodies\": [\n        \"Plate\"\n      ],\n      \"feature\": 2,\n      \"ms\": 12.193241,\n      \"name\": \"Extrude1\",\n      \"removed_bodies\": [],\n      \"warning\": null\n    }\n  ]\n}",
+   "type": "text",
+   "text_parsed": {
+    "completed": 2,
+    "ok": true,
+    "results": [
+     {
+      "profiles": 6,
+      "sketch": 1
+     },
+     {
+      "bodies": [
+       "Plate"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+       "Plate"
+      ],
+      "feature": 2,
+      "ms": 12.193241,
+      "name": "Extrude1",
+      "removed_bodies": [],
+      "warning": null
+     }
+    ]
+   }
+  }
+ ]
+}

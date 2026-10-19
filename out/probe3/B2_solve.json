@@ -1,0 +1,18 @@
+{
+ "arguments": {
+  "command": "sketch.solve",
+  "params": {}
+ },
+ "content": [
+  {
+   "text": "{\n  \"dof\": 0,\n  \"failing\": [],\n  \"profiles\": 6,\n  \"status\": \"solved\"\n}",
+   "type": "text",
+   "text_parsed": {
+    "dof": 0,
+    "failing": [],
+    "profiles": 6,
+    "status": "solved"
+   }
+  }
+ ]
+}

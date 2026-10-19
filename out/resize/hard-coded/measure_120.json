@@ -1,0 +1,53 @@
+{
+ "measured": {
+  "bbox_min": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "bbox_max": [
+   120.0,
+   50.0,
+   5.0
+  ],
+  "volume": 29045.92,
+  "holes": [
+   [
+    8.0,
+    42.0,
+    5.0
+   ],
+   [
+    8.0,
+    8.0,
+    5.0
+   ],
+   [
+    40.0,
+    25.0,
+    12.0
+   ],
+   [
+    72.0,
+    42.0,
+    5.0
+   ],
+   [
+    72.0,
+    8.0,
+    5.0
+   ]
+  ]
+ },
+ "score": {
+  "pass": false,
+  "failures": [
+   "hole 5 mm at (112, 8) missing",
+   "hole 5 mm at (112, 42) missing",
+   "hole 12 mm at (60, 25) missing",
+   "extra hole 12 mm at (40, 25)",
+   "extra hole 5 mm at (72, 42)",
+   "extra hole 5 mm at (72, 8)"
+  ]
+ }
+}
