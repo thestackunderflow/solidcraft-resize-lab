@@ -44,3 +44,8 @@ docker compose run --rm score
 ```
 
 `mcp-config.json` files show the host lab folder as `$LAB` (scrubbed by `run.sh`).
+
+## Licence
+
+Lab code: Apache License 2.0 (`LICENSE`). SolidCraft is "MIT OR Apache-2.0"; the Docker image downloads its
+official release and does not redistribute it.
